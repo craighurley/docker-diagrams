@@ -6,7 +6,7 @@ RUN         apk update \
             && apk add --no-cache graphviz freetype-dev ttf-dejavu jpeg-dev zlib-dev \
             && apk add --no-cache --virtual .build-deps build-base linux-headers \
             && pip3 install --no-cache-dir \
-                diagrams==0.17.0 \
+                diagrams==0.19.1 \
                 blockdiag==2.0.1 \
                 seqdiag==2.0.0 \
                 actdiag==2.0.0 \
